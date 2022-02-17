@@ -4,7 +4,7 @@ import unittest
 
 from Prog1 import summation
 
-class TestSum(unittest.TestCase)
+class TestSum(unittest.TestCase):
       
        def test_list_int(self):
         """
