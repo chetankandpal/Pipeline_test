@@ -1,9 +1,9 @@
 pipeline{
-  agent any
+ agent any
   stages{
     stage('Clone Git'){
       steps{
-       git'https://github.com/chetankandpal/Pipeline_test.git'
+       git 'https://github.com/chetankandpal/Pipeline_test.git'
       }
     }
     stage('Build Code'){
